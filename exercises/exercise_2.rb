@@ -12,4 +12,5 @@ puts "----------"
 
 @store1.update(name: 'The Bay')
 
-puts Store.all
+# puts Store.all
+puts @store1.name
